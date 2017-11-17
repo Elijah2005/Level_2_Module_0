@@ -14,15 +14,33 @@ public class IntroToArrayLists {
 		food.add("Spaghetti");
 		food.add("Pie");
 		//3. Print all the Strings using a standard for-loop
-		for (int i = 0; i < food.size(); i++) {
-			System.out.println(i);
-		}
-		//4. Print all the Strings using a for-each loop
-		
+//		for (int i = 0; i < food.size(); i++) {
+//			String f = food.get(i);
+//			System.out.println(f);
+//		}
+//		//4. Print all the Strings using a for-each loop
+//		for(String f : food) {
+//	System.out.println(f);
+//		}
 		//5. Print only the even numbered elements in the list.
-		
+//		for (int i = 0; i< food.size(); i++) {
+//		String f = food.get(i);
+//		if(i%2==0) {
+//			System.out.println(f);
+//		}
+//		}
 		//6. Print all the Strings in reverse order.
-		
+//for (int i = 4; i < food.size(); i--) {
+//	String f = food.get(i);
+//	System.out.println(f);
+//}
 		//7. Print only the Strings that have the letter 'e' in them.
+		for (int i = 0; i < food.size(); i++) {
+			String f = food.get(i);
+			if(f.contains("e")) {
+				System.out.println(f);
+			}
+			
+		}
 	}
 }
